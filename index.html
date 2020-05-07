@@ -1,14 +1,28 @@
-<!DOCTYPE html><html lang="en"><head>
-    <script src="p5.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <script src="ml5.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 
-  </head>
-  <body>
+</head>
+
+<body>
     <script src="sketch.js"></script>
-  
 
-</body></html>
+    <script type='text/javascript' charset='utf-8'>
+        var iframe = document.createElement('iframe');
+        document.body.appendChild(iframe);
+        iframe.src = 'https://www.google.com/maps/d/u/0/embed?mid=1sdGQ_pOOAcHVDsaDg4xlF3jeCln7iKfw';
+        iframe.style.position = 'relative';
+        iframe.style.left = '640px';
+        iframe.width = '640px';
+        iframe.height = '480px';
+    </script>
+</body>
+
+</html>
