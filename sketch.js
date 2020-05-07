@@ -18,7 +18,7 @@ function setup() {
     canvas = createCanvas(640, 480);
     canvas.position(0, 0);
 
-    // canvas.style("padding","24px");
+    // canvas.style("padding", "24px");
     video = createCapture(VIDEO);
     video.hide();
     poseNet = ml5.poseNet(video, modelLoaded);
