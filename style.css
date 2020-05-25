@@ -5,3 +5,50 @@ html, body {
 canvas {
   display: block;
 }
+
+button {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #6698cb;
+    -webkit-transition: x0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+
+button:hover, button:focus {
+    opacity: 0.8;
+}
+button:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+button.block {
+    display: block !important;
+}
+button.circular {
+  border-radius: 50em !important;
+}
+
+
+.container {
+    margin: 0;
+    width: 0px;
+}
